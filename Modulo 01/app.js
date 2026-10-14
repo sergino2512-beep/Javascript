@@ -41,5 +41,22 @@
     console.log(a <= b);
     console.log(a === b);
     console.log(a == b);
-    console.log(a !== b);       
+    console.log(a !== b);
+    
+    const edadPersona = 15;
+    const tieneDocumento = true;
 
+    const puedeIngresar = edadPersona >= 18 && tieneDocumento;
+    console.log(puedeIngresar);
+
+    const esMayorDeEdad = edadPersona >= 18 || tieneDocumento;
+    console.log(esMayorDeEdad);
+
+    const noPuedeIngresar = !puedeIngresar;
+    console.log(noPuedeIngresar);
+
+    const precio = "100";
+    const cantidad = "5";
+
+    const total = Number(precio) * Number(cantidad);
+    console.log(total);
