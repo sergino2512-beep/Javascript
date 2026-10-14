@@ -78,3 +78,24 @@
     console.log(`salarioBase: $${salarioBase}`)
     console.log(`bonificacion $${bonificacion}`)
     console.log(`salarioTotal: $${salarioTotal}`)
+
+    const edad2 = 20;
+
+    if (edad2 >= 18 ){
+        console.log("Eres mayor de edad")
+    } else {
+        console.log("Eres menor de edad");
+    }
+
+    const calificacion = 85;
+    if( calificacion >= 90){
+        console.log("Excelente");
+    } else if (calificacion >= 80){
+        console.log("Muy bien");
+    } else if (calificacion >= 70){
+        console.log("Bien")
+    } else if (calificacion >= 60){
+        console.log("Suficiente")
+    } else {
+        console.log("Insuficiente")
+    }
