@@ -99,3 +99,15 @@
     } else {
         console.log("Insuficiente")
     }
+
+
+    const edad3 = 25;
+    const tieneEntrada = true;
+
+    if (edad3 >= 18 && tieneEntrada){
+        console.log("Puedes ingresar al evento")
+    } else {
+        console.log("No puedes ingresar al evento")
+    }
+
+    
