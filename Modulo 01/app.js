@@ -26,4 +26,20 @@
     const mensaje = `El nombre del usuario es ${nombreUsuario} y tiene ${edadUsuario} años.`;
     console.log(mensaje);
 
-    
+    const a = 10;
+    const b = 5;
+
+    console.log(a + b);
+    console.log(a - b);
+    console.log(a * b);
+    console.log(a / b);
+    console.log(a % b);
+
+    console.log(a > b);
+    console.log(a < b);
+    console.log(a >= b);
+    console.log(a <= b);
+    console.log(a === b);
+    console.log(a == b);
+    console.log(a !== b);       
+
