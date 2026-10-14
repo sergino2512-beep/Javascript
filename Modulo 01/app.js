@@ -110,4 +110,27 @@
         console.log("No puedes ingresar al evento")
     }
 
-    
+    const valorCompra = 350000;
+
+    if (typeof valorCompra !== "number" || valorCompra < 0){
+        console.log("Compra rechazada: el valor numerico debe ser un numero positivo")
+    } else {
+        let porcentajeDescuento = 0;
+
+        if (valorCompra >= 500000){
+            porcentajeDescuento = 15;
+        } else if ( valorCompra >= 300000){
+            porcentajeDescuento = 10;
+        } else if ( valorCompra >= 100000){
+            porcentajeDescuento = 5;
+        } else {
+            porcentajeDescuento = 0;
+        }
+
+        const descuentoAplicado = valorCompra * porcentajeDescuento / 100;
+        const totalPagar = valorCompra - descuentoAplicado;
+
+        console.log(`subtotal: $${valorCompra}`);
+        console.log(`descuentoAplicado (${porcentajeDescuento}%): $${descuentoAplicado}`);
+        console.log(`totalPagar: $${totalPagar}`);
+    }
