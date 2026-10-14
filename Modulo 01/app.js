@@ -19,3 +19,11 @@
     console.log(typeof esEstudiante)
     console.log(typeof temporada)
     console.log(typeof direccion)
+
+    const nombreUsuario = "Tatiana";
+    const edadUsuario = "18";
+
+    const mensaje = `El nombre del usuario es ${nombreUsuario} y tiene ${edadUsuario} años.`;
+    console.log(mensaje);
+
+    
