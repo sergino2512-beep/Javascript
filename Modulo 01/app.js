@@ -60,3 +60,21 @@
 
     const total = Number(precio) * Number(cantidad);
     console.log(total);
+
+    const horasTrabajadas = 48;
+    const tarifaPorHora = 1200;
+
+    const salarioBase = horasTrabajadas * tarifaPorHora;
+    let bonificacion = 0;
+
+    if (salarioBase > 500000) {
+        bonificacion = salarioBase * 0.10
+    }
+
+    const salarioTotal = salarioBase + bonificacion;
+
+    console.log(`horasTrabajadas: ${horasTrabajadas}`);
+    console.log(`tarifaPorHora: $${tarifaPorHora}`)
+    console.log(`salarioBase: $${salarioBase}`)
+    console.log(`bonificacion $${bonificacion}`)
+    console.log(`salarioTotal: $${salarioTotal}`)
